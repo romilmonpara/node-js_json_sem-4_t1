@@ -1,0 +1,31 @@
+<html>
+    <script>
+        var a = {
+            "name" : "Test",
+            "age" : 19,
+            "ispass":true,
+            "address" : {
+                "City":"Ahmedabad",
+                "zip":380015
+            },
+            "country" : "India",
+            "hobbies" : ["Cricket","Listing a Song","Gaming"],
+            "years":null
+        }
+
+        console.log(a)
+        console.log(a.age)
+        console.log(a["address"]["City"])
+        console.log(a["address"])
+        console.log(a["hobbies"][1])
+        console.log(a.years)
+    </script>
+</html>
+
+<!-- Output :
+{name: 'Test', age: 19, ispass: true, address: {…}, country: 'India', …}
+19
+Ahmedabad
+{City: 'Ahmedabad', zip: 380015}
+Listing a Song
+null      -->

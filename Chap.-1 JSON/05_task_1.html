@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script>
+            function json(){
+                let Obj = JSON.parse('{"DOB":"1990-08-24"}');
+                let obj = new Date(Obj.DOB);
+                document.getElementById("demo").innerHTML = obj;
+            }
+        </script>
+    </head>
+    <body>
+        <button value="click" onclick="json()">Click</button>
+        <p id="demo"></p>
+    </body>
+</html>
