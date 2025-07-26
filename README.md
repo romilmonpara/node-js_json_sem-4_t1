@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository learning materials and examples related to JSON (JavaScript Object Notation) and Node.js. It covers fundamental concepts, practical implementations, and advanced topics to help you understand how to work with JSON and build applications using Node.js.
+This repository contains learning materials and examples related to JSON (JavaScript Object Notation) and Node.js. It covers fundamental concepts, practical implementations, and advanced topics to help you understand how to work with JSON and build applications using Node.js.
 
 ---
 
